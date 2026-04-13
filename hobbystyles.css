@@ -1,9 +1,16 @@
+@keyframes titleAnimation{
+    from{color:red;}
+    to{color:green;}
+}
 .title{
     display:flex;
     justify-content:center;
     align-items:center;
     font-size: 36px;
     color:red;
+    animation-name: titleAnimation;
+    animation-duration: 4s;
+    animation-iteration-count:infinite;
 }
 
 .like{
